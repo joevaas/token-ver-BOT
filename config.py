@@ -20,7 +20,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "TAT_Lufffy")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "ae7c5805f074b71840d10f5983edbf2bb430743c")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 28800)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 1200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/True_Beauty_Tamil_Dub_Anime/48") 
 
