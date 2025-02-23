@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6693549185"))
 PORT = os.environ.get("PORT", "8060")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://boyrokey00:rajan123@cluster0.4fhuu.mongodb.net/")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://0:0@cluster0.hvdea.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "TAF_Luffy")
 
 #Shortner (token system) 
