@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6749506390:AAEuVHIdTQUwH4CPs1DDaZ0MOl3KMSNjwxc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6749506390:AAFRfVQ3HuW7lRWHuJYjyNyatlPwu3Hpt1Y")
 APP_ID = int(os.environ.get("APP_ID", "14307449"))
 API_HASH = os.environ.get("API_HASH", "51581b3f5f95c2c7f97efa2608d8e4f1")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002114522672"))
@@ -18,8 +18,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "TAF_Luffy")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ae7c5805f074b71840d10f5983edbf2bb430743c")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "772bcad35904d96a22548e29838ec0a419a36918")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 14400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/True_Beauty_Tamil_Dub_Anime/49") 
